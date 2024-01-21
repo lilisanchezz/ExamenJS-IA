@@ -1,0 +1,12 @@
+[
+    { "nom": "La Zowi", "atac": 90, "defensa": 80, "velocitat": 10, "salut": 100, "img": "lazowi.jpg" },
+    { "nom": "Bad Gyal", "atac": 85, "defensa": 75, "velocitat": 9, "salut": 100, "img": "badgyal.jpg" },
+    { "nom": "Mala Rodriguez", "atac": 80, "defensa": 70, "velocitat": 8, "salut": 100, "img": "malarodriguez.jpg" },
+    { "nom": "Cloe Aguirre", "atac": 70, "defensa": 60, "velocitat": 7, "salut": 100, "img": "cloeaguirre.jpg" },
+    { "nom": "Nora Khaddouri", "atac": 75, "defensa": 65, "velocitat": 6, "salut": 100, "img": "nora.jpeg" },
+    { "nom": "La Rosalía", "atac": 88, "defensa": 78, "velocitat": 9, "salut": 100, "img": "larosalia.jpg" },
+    { "nom": "Albani", "atac": 87, "defensa": 77, "velocitat": 8, "salut": 100, "img": "albani.jpg" },
+    { "nom": "Lola índigo", "atac": 82, "defensa": 72, "velocitat": 7, "salut": 100, "img": "lolaindigo.jpg" },
+    { "nom": "Maria Rispa", "atac": 95, "defensa": 85, "velocitat": 11, "salut": 100, "img": "mariarispa.jpg" },
+    { "nom": "Maria Escarmiento", "atac": 92, "defensa": 82, "velocitat": 10, "salut": 100, "img": "mariaescarmiento.jpg" }
+]

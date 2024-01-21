@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('fondo_leopardo.jpg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta correcta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen en la pantalla */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+h1 {
+    font-family: 'Verdana', sans-serif; /* Reemplaza 'YourDesiredFont' con la fuente que prefieras */
+    color:Black; /* Color del texto */
+  
+    text-align: center;
+    font-size: 3em; /* Tamaño del texto, puedes ajustarlo según tus preferencias */
+    margin-bottom: 20px; /* Margen inferior para separar el título del resto del contenido */
+}
+h2 {
+    font-family: 'Verdana', sans-serif;
+    color:Black;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    padding: 10px; /* Ajusta el tamaño del padding según tus preferencias */
+   
+}
+
+.jugador {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.carta {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carta:hover {
+    transform: scale(1.05);
+}
+
+.carta img {
+    max-width: 70%;
+    border-radius: 8px;
+}
+
+.atributs p {
+    margin: 5px 0;
+}
+
+.seleccionada {
+    border-color:yellow;
+}
+
+button {
+    background-color:black;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color:Black;
+}
+
+#mensajes {
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: grey;
+    color:black;
+}
+.carta.no-seleccionada {
+    animation: vibracion 1s infinite ease-in-out;
+}
+
+@keyframes vibracion {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-1px); }
+    50% { transform: translateY(1px); }
+    75% { transform: translateY(-1px); }
+    100% { transform: translateY(1px); }
+}
